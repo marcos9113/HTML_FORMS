@@ -33,7 +33,7 @@
     <h1 class="header2">Register for the Hackathon</h1>
     <br>
     <br>
-    <form>
+    <form id="form" method="post">
         <div class="container">
           <label for="email"><b>First Name</b></label>
           <input type="text" placeholder="Enter First Name" name="FirstName" id="FirstName" required>
@@ -56,7 +56,7 @@
           <hr>
       
           <p>By registering for the hackathon you agree to our <a href="#">Terms & Privacy</a>.</p>
-          <button onclick="display()" type="submit" class="registerbtn">LET'S GO</button>
+          <button id="btn" onclick="submit()" class="registerbtn">LET'S GO</button>
         </div>
         <br>
       </form>
